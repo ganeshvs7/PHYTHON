@@ -7,7 +7,7 @@ print("🚀 Script started...")
 def convert_to_grayscale(image_path):
     print(f"📸 Attempting to load: {image_path}")
     
-    # 1.Load the image using OpenCV
+    # 1. Load the image using OpenCV
     bgr_img = cv2.imread(image_path)
     
     # Check if the image actually exists/loaded properly
